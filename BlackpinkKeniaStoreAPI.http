@@ -1,0 +1,6 @@
+@BlackpinkKeniaStoreAPI_HostAddress = http://localhost:5148
+
+GET {{BlackpinkKeniaStoreAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
