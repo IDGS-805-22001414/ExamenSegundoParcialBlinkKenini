@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #000000;
+}
+
+
+.banner-carrusel {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.carrusel-imagenes {
+  display: flex;
+  animation: deslizar 15s infinite ease-in-out;
+  width: 100%;
+}
+
+.carrusel-imagenes img {
+  width: 50%;
+  height: 200px;
+  object-fit: cover;
+  flex: 0 0 100%;
+  border-radius: 12px;
+  border: 2px solid #dc1db2;
+}
+
+
+.titulo-mas-vendidos {
+  text-align: center;
+  font-size: 2rem;
+  margin: 30px 0 15px;
+  color: #dc1db2;
+  animation: aparecer 1s ease-out;
+}
+
+
+.carrusel-productos {
+  display: flex;
+  overflow-x: auto;
+  padding: 30px 40px;
+  gap: 20px;
+  background-color: #000000;
+}
+
+
+.tarjeta-producto {
+  min-width: 200px;
+  background: #fce1f0;
+  border: 2px solid #dc1db2;
+  border-radius: 15px;
+  padding: 15px;
+  box-shadow: 0 4px 12px rgba(255, 105, 180, 0.3);
+  text-align: center;
+  flex-shrink: 0;
+  transition: transform 0.3s ease;
+}
+
+.tarjeta-producto:hover {
+  transform: translateY(-6px);
+}
+
+.tarjeta-producto img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ce2894;
+}
+
+.tarjeta-producto h3 {
+  margin: 5px 0;
+  font-size: 18px;
+  color: #000000;
+}
+
+.tarjeta-producto p {
+  font-size: 14px;
+  color: #333;
+}
+
+.tarjeta-producto strong {
+  color: #b04570;
+  font-weight: bold;
+}
+
+
+@keyframes deslizar {
+  0%, 20% { transform: translateX(0); }
+  30%, 50% { transform: translateX(-100%); }
+  60%, 80% { transform: translateX(-100%); }
+  100% { transform: translateX(0); }
+}
+
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

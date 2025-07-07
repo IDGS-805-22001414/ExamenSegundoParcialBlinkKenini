@@ -1,0 +1,133 @@
+body {
+  background-color: #000000;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.encabezado {
+  background-color: #fddaf0;
+  padding: 20px 0;
+  border-bottom: 4px solid #dc1db2;
+}
+
+.titulo {
+  text-align: center;
+  margin: 20px 0;
+  color: #a80e87;
+  font-size: 2.2rem;
+  animation: aparecer 1.2s ease-out;
+}
+
+.buscador {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.buscador input {
+  padding: 12px;
+  width: 50%;
+  border-radius: 8px;
+  border: 2px solid #dc1db2;
+  background-color: #1a1a1a;
+  color: rgb(243, 68, 205);
+  font-size: 1rem;
+}
+
+.categorias {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.btn-categoria {
+  margin: 5px;
+  padding: 10px 20px;
+  background-color: #dc1db2;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.btn-categoria:hover {
+  background-color: #ff69c9;
+}
+
+.btn-todos {
+  margin: 5px;
+  padding: 10px 20px;
+  background-color: #000000;
+  color: rgb(157, 56, 130);
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.btn-todos:hover {
+  background-color: #777;
+}
+
+.galeria {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #000000;
+  padding: 20px;
+}
+
+.tarjeta {
+  width: 250px;
+  margin: 15px;
+  padding: 20px;
+  border-radius: 15px;
+  background: #e78ec3;
+  box-shadow: 0 4px 10px rgba(255, 105, 180, 0.5);
+  text-align: center;
+  color: #000000;
+  transition: transform 0.3s ease;
+}
+
+.tarjeta:hover {
+  transform: translateY(-5px);
+}
+
+.tarjeta img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.categoria {
+  font-style: italic;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.btn-comprar {
+  padding: 10px 20px;
+  background-color: #000000;
+  color: #ff69b4;
+  border: 2px solid #ff69b4;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+.btn-comprar:hover {
+  background-color: #ff69b4;
+  color: black;
+}
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+    transform: translateY(-15px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

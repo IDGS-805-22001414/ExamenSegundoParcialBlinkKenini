@@ -1,0 +1,125 @@
+
+.navbar-container {
+  background: linear-gradient(to right, #000000, #fb63afc2);
+  padding: 35px 0 20px 0;
+  border-bottom: 3px solid #f8c6e6;
+  color: white;
+  animation: fadeInDown 1.2s ease-out;
+}
+
+
+.logo-img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  vertical-align: middle;
+  border-radius: 50%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+  animation: zoomIn 1.2s ease-out;
+}
+
+
+.titulo-blinkkenini {
+  font-family: 'Playfair Display', cursive;
+  font-size: 4rem; /* 🔥 más grande aún */
+  color: #fff;
+  font-weight: bold;
+  display: inline-block;
+  margin-left: 15px;
+  animation: slideInRight 1.3s ease-out;
+}
+
+
+.descripcion {
+  font-size: 1rem;
+  max-width: 800px;
+  margin: 10px auto;
+  color: #f8f8f8;
+  padding: 0 15px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  animation: fadeIn 1.5s ease-out;
+}
+
+
+.bg-dark-rosa {
+  background: linear-gradient(to right, #000000, #fb63afc2);
+  border-top: 2px solid #f3b3d4;
+  border-bottom: 3px solid #f3b3d4;
+}
+
+.navbar-nav .nav-link {
+  font-size: 1.2rem;
+  color: #ffffff !important;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 0.5px;
+  padding: 12px 18px;
+  transition: all 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+  color: #ffeef6 !important;
+  text-decoration: underline;
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 10px;
+}
+
+
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(60px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes zoomIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.6);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .titulo-blinkkenini {
+    font-size: 2.8rem;
+  }
+
+  .navbar-nav {
+    text-align: center;
+  }
+
+  .descripcion {
+    font-size: 0.9rem;
+  }
+}
