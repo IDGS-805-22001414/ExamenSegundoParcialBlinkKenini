@@ -1,0 +1,28 @@
+<div class="encabezado">
+  <h2 class="titulo"> Álbumes Disponibles </h2>
+
+  <!-- 🔍 Buscador -->
+  <div class="buscador">
+    <input [(ngModel)]="busqueda" (input)="filtrarProductos()" placeholder="Buscar álbum...">
+  </div>
+
+
+  <div class="categorias">
+    <button *ngFor="let cat of categorias" (click)="filtrarPorCategoria(cat)" class="btn-categoria">
+      {{ cat }}
+    </button>
+    <button (click)="resetFiltros()" class="btn-todos">Todos</button>
+  </div>
+</div>
+
+
+<div class="galeria">
+  <div class="tarjeta" *ngFor="let p of productosFiltrados">
+    <img [src]="p.imagenUrl" alt="{{ p.nombre }}">
+    <h3>{{ p.nombre }}</h3>
+    <p>{{ p.descripcion }}</p>
+    <p><strong>Precio: ${{ p.precio }}</strong></p>
+    <p class="categoria">Categoría: {{ p.categoria.nombre }}</p>
+    <button class="btn-comprar">Comprar</button>
+  </div>
+</div>

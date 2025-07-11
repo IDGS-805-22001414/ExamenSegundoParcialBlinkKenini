@@ -165,3 +165,10 @@ C:\Users\alond\source\repos\BlackpinkKeniaStoreAPI\BlackpinkKeniaStoreAPI\obj\De
 C:\Users\alond\source\repos\BlackpinkKeniaStoreAPI\BlackpinkKeniaStoreAPI\obj\Debug\net8.0\BlackpinkKeniaStoreAPI.pdb
 C:\Users\alond\source\repos\BlackpinkKeniaStoreAPI\BlackpinkKeniaStoreAPI\obj\Debug\net8.0\BlackpinkKeniaStoreAPI.genruntimeconfig.cache
 C:\Users\alond\source\repos\BlackpinkKeniaStoreAPI\BlackpinkKeniaStoreAPI\obj\Debug\net8.0\ref\BlackpinkKeniaStoreAPI.dll
+C:\Users\alond\source\repos\BlackpinkKeniaStoreAPI\BlackpinkKeniaStoreAPI\bin\Debug\net8.0\angular.json
+C:\Users\alond\source\repos\BlackpinkKeniaStoreAPI\BlackpinkKeniaStoreAPI\bin\Debug\net8.0\package-lock.json
+C:\Users\alond\source\repos\BlackpinkKeniaStoreAPI\BlackpinkKeniaStoreAPI\bin\Debug\net8.0\package.json
+C:\Users\alond\source\repos\BlackpinkKeniaStoreAPI\BlackpinkKeniaStoreAPI\bin\Debug\net8.0\tsconfig.app.json
+C:\Users\alond\source\repos\BlackpinkKeniaStoreAPI\BlackpinkKeniaStoreAPI\bin\Debug\net8.0\tsconfig.json
+C:\Users\alond\source\repos\BlackpinkKeniaStoreAPI\BlackpinkKeniaStoreAPI\bin\Debug\net8.0\tsconfig.spec.json
+C:\Users\alond\source\repos\BlackpinkKeniaStoreAPI\BlackpinkKeniaStoreAPI\obj\Debug\net8.0\BlackpinkKeniaStoreAPI.sourcelink.json

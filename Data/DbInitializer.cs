@@ -1,4 +1,4 @@
-﻿using BlackpinkKeniaStoreAPI.Models;
+using BlackpinkKeniaStoreAPI.Models;
 
 namespace BlackpinkKeniaStoreAPI.Data
 {
@@ -6,7 +6,7 @@ namespace BlackpinkKeniaStoreAPI.Data
     {
         public static void Inicializar(AppDbContext context)
         {
-            if (context.Categorias.Any()) return; // Ya hay datos
+            if (context.Categorias.Any()) return;
 
             var categorias = new Categoria[]
             {

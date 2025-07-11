@@ -1,0 +1,17 @@
+.footer {
+  text-align: center;
+  padding: 20px;
+  background: linear-gradient(to right, #000000, #fb63afc2);
+  color: white;
+  margin-top: 40px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.footer h2 {
+  margin-bottom: 10px;
+}
+
+.footer p {
+  margin: 5px 0;
+}

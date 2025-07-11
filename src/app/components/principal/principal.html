@@ -1,0 +1,17 @@
+<div class="banner-carrusel">
+  <div class="carrusel-imagenes">
+    <img src="https://wallpapers.com/images/hd/original-blackpink-logo-on-black-jahusmc79bz444wc.jpg" alt="Imagen 1" />
+    <img src="https://pbs.twimg.com/media/Ei_F7l6WsAI2qfi?format=jpg&name=large" alt="Imagen 2" />
+    <img src="https://coahuila.elsiglo.mx/i/2022/10/1154326.jpeg" alt="Imagen 3" />
+  </div>
+</div>
+
+<h2 class="titulo-mas-vendidos"> Álbumes Más Vendidos</h2>
+<div class="carrusel-productos">
+  <div class="tarjeta-producto" *ngFor="let p of productosMasVendidos">
+    <img [src]="p.imagenUrl" alt="{{ p.nombre }}">
+    <h3>{{ p.nombre }}</h3>
+    <p>{{ p.descripcion }}</p>
+    <strong>${{ p.precio }}</strong>
+  </div>
+</div>
